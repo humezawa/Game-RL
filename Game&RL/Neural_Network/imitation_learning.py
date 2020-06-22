@@ -7,7 +7,7 @@ file_name = 'IL_weights_no_over'
 
 il_nn = CNN()
 
-history = il_nn.train(3 * 121)
+history = il_nn.train(2 * 121)
 
 plt.plot(history[0])
 plt.xlabel('Epoch')
